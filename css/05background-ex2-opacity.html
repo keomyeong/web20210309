@@ -1,6 +1,6 @@
 <!DOCTYPE html>
+<!-- html>head>style^body -->
 <html>
-
 <head>
     <style>
         div {
@@ -9,22 +9,32 @@
 
         h1 {
             position: absolute;
-            left: 0;
-            top: 0;
+            left: 100px;
+            top: 0px;
+            background-color: black;
+            color: white;
+        }
+
+        #div1 > h1 {
+            opacity: 0.5;
+        }
+
+        #div2 > h1 {
+            background-color: rgba(0, 0, 0, 1);
         }
     </style>
 </head>
-
 <body>
     <div id="div1">
-        <img src="../web/계산기.jfif" alt="">
-        <h1>Lorem, ipsum dolor.</h1>
+        <img src="../html/캡처.JPG" alt="">
+        <h1>Lorem, ipsum dolor. Lorem ipsum dolor sit.</h1>
     </div>
+
     <div id="div2">
-        <img src="../web/계산기.jfif" alt="">
+        <img src="../html/캡처.JPG" alt="">
         <h1>Lorem, ipsum dolor.</h1>
-
     </div>
-</body>
 
+
+</body>
 </html>
