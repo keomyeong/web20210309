@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    p:nth-child(1) {
+        background-color: blue;
+    }
+    p:nth-child(2) {
+        background-color: green;
+    }
+    p:nth-child(odd){
+        text-decoration: underline;
+    /* 홀수 */
+    }
+    p:nth-child(even){
+        font-weight: bold;
+    }
+    table, th, td{
+        border: 1px solid black
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td{
+        height: 30px;
+    }
+    tr:nth-child(odd) {
+        background-color: lightgray;
+    }
+</style>
+</head>
+<body>
+<div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Recusandae ab et error molestias!</p>
+    <p>Odio quod cum ducimus aliquid?</p>
+    <p>Distinctio aliquam temporibus ipsam delectus!</p>
+    <p>Sunt, corporis mollitia! Sapiente, numquam?</p>
+</div>
+
+<!-- table>tr>th*3>lorem1^^tr*4>td*3>lorem1 -->
+<table>
+    <tbody>
+
+        <tr>
+            <th>Lorem.</th>
+            <th>Enim!</th>
+            <th>Perferendis?</th>
+        </tr>
+        <tr>
+            <td>Lorem.</td>
+            <td>Fuga!</td>
+            <td>Modi.</td>
+        </tr>
+        <tr>
+            <td>Lorem.</td>
+            <td>Nesciunt?</td>
+            <td>Delectus!</td>
+        </tr>
+        <tr>
+            <td>Lorem.</td>
+            <td>Iusto.</td>
+            <td>Illum.</td>
+        </tr>
+        <tr>
+            <td>Lorem.</td>
+            <td>Eligendi!</td>
+            <td>Corrupti?</td>
+        </tr>
+    </tbody>
+ </table>
+</body>
+</html>
