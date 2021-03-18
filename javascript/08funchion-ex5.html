@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/all.min.css">
+<style>
+</style>
+</head>
+<body>
+    <button onclick ="changeImage(this)" id ="button1">groot1</button>
+    <button onclick ="changeImage(this)" id="button2">groot2</button>
+    <button onclick ="changeImage(this)" id="button3">wanda</button>
+    <button onclick ="changeImage(document.getElementById('button4'))" id="button4">woman</button>
+    <hr>
+    <img src="" alt="" id="img1">
+    <script>
+        function changeImage(elem) {
+            document.getElementById("img1").src = elem.innerHTML + ".jpg";
+        }
+    </script>
+</body>
+</htaml>
