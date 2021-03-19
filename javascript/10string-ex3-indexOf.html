@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    Lorem ipsum dolor sit.
+    012345678901234567890
+    <script>
+
+        var str = "Lorem ipsum dolor sit.";
+        var idx = str.indexOf("sit");
+        console.log(idx);
+
+        //slice
+        var res = str.slice(12, 17);
+        console.log(res);
+        console.log(str.slice(12)); // 끝까지
+
+        //substring
+        var res2 = str.substring(12, 17);
+        console.log(res2);
+
+        //substr
+        var res3 = str.substr(12, 5);
+        console.log(res3);
+
+        var txt = "Hello World";
+        txt = txt.replace("Hello", "Welcome");
+    </script>
+</body>
+
+</html>
