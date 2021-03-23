@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/all.min.css">
+<style>
+</style>
+</head>
+<body>
+<input type="text" placeholder="구구단">
+<br>
+<button onclick="ququ()">버튼</button>
+<div id="result"></div>
+
+<script>
+    function ququ() {
+        var q = document.querySelector("input").value;
+        q = Number(q);
+
+        var tet = "";
+        for(var t = 1; t<10; t++){
+            tet += q + "X" + t + "=" + (q*t) + "<br>";
+
+        }
+        document.getElementById("result").innerHTML=tet;
+    }
+</script>
+</body>
+</html>

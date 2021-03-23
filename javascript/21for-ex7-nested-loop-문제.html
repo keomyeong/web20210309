@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <style>
+        * {
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="result"></div>
+    <script>
+        var star = ["*", "**", "***", "****", "*****", "******"];
+        var text = "";
+        var i;
+        for (i = 0; i < star.length; i++) {
+            text += star[i] + "<br>";
+        }
+        document.getElementById("result").innerHTML = text;
+    </script>
+</body>
+
+</html>
