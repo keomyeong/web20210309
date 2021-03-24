@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <div id="result"></div>
+
+    <script>
+
+        var txt = "";
+        var j = 2;
+        while (j < 10) {
+            var i = 1;
+            while (i < 10) {
+                // document.write( j + "X" + i + "=" + (j * i) + "<br>" );
+                // 이것만 써도 됩니다.
+                txt += j + "X" + i + "=" + (j*i) + "<br>";
+                i++;
+                
+            }
+            j++;
+        }
+        document.getElementById("result").innerHTML=txt;
+        
+        
+    </script>
+</body>
+
+</html>
